@@ -3172,6 +3172,7 @@ typedef struct xSTATIC_TCB
     #endif
     StaticListItem_t xDummy3[ 2 ];
     UBaseType_t uxDummy5;
+    UBaseType_t uxDummy5b;
     void * pxDummy6;
     #if ( configNUMBER_OF_CORES > 1 )
         BaseType_t xDummy23;
